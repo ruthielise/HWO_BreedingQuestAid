@@ -1,0 +1,21 @@
+// breed name, mixed partner needed bool, partner breed one, partner breed two
+//light breeds
+"abaco barb",false,"garrano","spanish barb"
+"abtenaur",false,"spanish barb","noriker"
+"aegidienberger",false,"icelandic horse","peruvian paso"
+"aenos",true,"pindos pony","tarpan x pindos pony"
+"american creme draft",true,"belgian draft x shire","percheron"
+"american creme and white",true,"thoroughbred x quarter horse","morgan x arabian"
+"american saddlebred",true,"morgan x hackney","narraganset pacer x canadian pacer"
+"american shetland",true,"shetland pony x welsh pony","hackney pony"
+"american walking pony",false,"tennessee walking horse","welsh pony"
+"american warmblood",true,"dutch warmblood x swedish warmblood","danish warmblood x belgian warmblood"
+"anadolu pony",true,"akhal-teke x deliboz","karabakh x mongolian"
+"andalusian",true,"sorraria x carthusian","sorraria x west african barb"
+"andravida",false,"nonius","anglo-norman"
+"anglo-arabian",true,"arabian x thoroughbred","thoroughbred"
+"anglo-kabarda",false,"anglo-arabian","kabarda"
+"anglo-norman",false,"thoroughbred","norman cob"
+"appaloosa",true,"spanish jennet","quarter horse x mustang"
+"appendix quarter horse",false,"thoroughbred","quarter horse"
+"arabo
