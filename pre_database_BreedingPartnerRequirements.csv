@@ -89,6 +89,16 @@
 
 
 
+
+
+"standardbred",true,"thoroughbred x canadian pacer","morgan narragansett pacer"
+"sudan country-bred",true,"thoroughbred","arabian x dongola"
+"suffolk punch",true,"norfolk trotter x belgian draft","thoroughbred x welsh cob"
+"sumba",false,"mongolian","chinese pony"
+"sumbawa",false,"tarpan","sumba"
+"swedish ardennais",false,"ardennais","north swedish horse"
+"swedish warmblood",true,"thoroughbred x hanoverian","arabian x trakehner"
+"taishuh horse",false,"tarpan","yonaguni pony"
 "tawleed",false,"thoroughbred","sudan country-bred"
 "tchenarani",false,"persian arabian","turkoman"
 "tennessee walking horse",true,"thoroughbred x narragansett pacer","american saddlebred x standardbred"
