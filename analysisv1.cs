@@ -1,1 +1,0 @@
-string breed_name = "";
