@@ -32,7 +32,7 @@ with open("pre_database_BreedingPartnerRequirements.csv") as file1:
     else:
       break;
         
-# create array of content for breeding partner database and insert data
+# create array of content for quest cascade database and insert data
 with open("pre_database_QuestUnlockCascade.csv") as file2:
   loop = 0;
   while(true):
