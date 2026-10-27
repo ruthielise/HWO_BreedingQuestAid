@@ -27,8 +27,7 @@ with open("pre_database_BreedingPartnerRequirements.csv") as file1:
         print("Line " + str(loop) + " could not be parsed.");
         continue;
       else:
-        command = "INSERT INTO breeding_partners (name, crossbreed_bool, partner1, partner2) VALUES (?, ?, ?, ?)", (data[0], data[1], data[2], data[3]);
-        cur1.execute(command);
+        cur1.execute("INSERT INTO breeding_partners (name, crossbreed_bool, partner1, partner2) VALUES (?, ?, ?, ?)", (data[0], data[1], data[2], data[3]);
     else:
       break;
         
@@ -44,8 +43,7 @@ with open("pre_database_QuestUnlockCascade.csv") as file2:
         print("Line " + str(loop) + " could not be parsed.");
         continue;
       else:
-        command = "INSERT INTO quest_cascade (name, unlocks_bool, unlocked_by) VALUES (?, ?, ?)", (data[0], data[1], data[2]);
-        cur2.execute(command);
+        cur2.execute("INSERT INTO quest_cascade (name, unlocks_bool, unlocked_by) VALUES (?, ?, ?)", (data[0], data[1], data[2]);
     else:
       break;
 
