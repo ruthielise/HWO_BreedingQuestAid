@@ -40,11 +40,11 @@ with open("pre_database_QuestUnlockCascade.csv") as file2:
     input = file2.readline();
     if input = file2.readline() != null:
       data = input.split(',');
-      if len(data) < 4:
+      if len(data) < 3:
         print("Line " + str(loop) + " could not be parsed.");
         continue;
       else:
-        command = "INSERT INTO breeding_partners (name, crossbreed_bool, partner1, partner2) VALUES (?, ?, ?, ?)", (data[0], data[1], data[2], data[3]);
+        command = "INSERT INTO quest_cascade (name, unlocks_bool, unlocked_by) VALUES (?, ?, ?)", (data[0], data[1], data[2]);
         cur2.execute(command);
     else:
       break;
