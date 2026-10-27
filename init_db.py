@@ -17,7 +17,7 @@ cur1 = conn1.cursor()
 cur2 = conn2.cursor()
 # create array of content for breeding partner database and insert data
 with open("pre_database_BreedingPartnerRequirements.csv") as file1:
-  loop = 0;
+  loop = 1;
   dummy = file1.readline();
   while(true):
     loop += 1;
@@ -35,7 +35,7 @@ with open("pre_database_BreedingPartnerRequirements.csv") as file1:
         
 # create array of content for quest cascade database and insert data
 with open("pre_database_QuestUnlockCascade.csv") as file2:
-  loop = 0;
+  loop = 1;
   dummy = file2.readline();
   while(true):
     loop += 1;
