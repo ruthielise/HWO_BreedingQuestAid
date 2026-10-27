@@ -49,10 +49,6 @@ with open("pre_database_QuestUnlockCascade.csv") as file2:
     else:
       break;
 
-
-# use the cursor’s execute() method to execute the INSERT SQL statements to blog posts to the posts table
-cur.execute("INSERT INTO posts (title, content) VALUES (?, ?)", ("New Year's Resolutions", "As the new year approaches, I'm starting to think about my resolutions for the coming year. I want to focus on my health and fitness, spend more time with family and friends, and take on new challenges at work. Here's to a great year ahead!"))
-
 # commit the changes to the database and close the connection
 conn1.commit()
 conn2.commit()
